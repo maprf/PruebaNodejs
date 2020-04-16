@@ -1,4 +1,10 @@
 
+https://www.youtube.com/watch?v=sh-NanMOh1Q&t=184s
+Voy por el min 43, break
+
+
+
+
 //Incapaz de unir con github despues de crear tube que crear todo el proyecto como un clon de un repositorio para que me funcionara
 
 Probando a hacer web con nodejs

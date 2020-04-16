@@ -3,10 +3,10 @@ const enrutador = libExpress.Router();
 
 
 const manejadorRaiz = function (peticion,respuesta){
-    respuesta.render('index.ejs', {titulo: 'Mi primera pagina'});
+    respuesta.render('index.html', {titulo: 'Mi primera pagina'});
 }
 const manejadorContact = function (peticion,respuesta){
-    respuesta.render('contactos.ejs', {titulo: 'Pagina de contactos'});
+    respuesta.render('contactos.html', {titulo: 'Pagina de contactos'});
 }
 
 

@@ -29,7 +29,7 @@ const indiceRutas = require('./routes/index.js');
 //variables
 servidor.set('puerto', 4000);  //asi se hace una var global del server
 servidor.set('views',path.join(__dirname,'views'));  //el directorio views deberia estar x defecto en el dir del proyecto, no dentro de src, x eso hace falta esta linea
-//servidor.engine('html',require('ejs').renderFile);  Si quisieramos que los arch fueran html en vez de ejs
+servidor.engine('html',require('ejs').renderFile);  //Si quisieramos que los arch fueran html en vez de ejs
 servidor.set('view engine','ejs');
 
 //middlewares (concepto express) funciones que se ejecutan antes de que las rutas procesen algo
