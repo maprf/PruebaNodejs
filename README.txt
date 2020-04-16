@@ -28,3 +28,7 @@ Recomendable: en package.jason ->>  scripts ->> añadimos una nueva funcion -->e
 
 
 el arrancar de 'package.jason' lo vamos a cambiar por "arrancar": "nodemon src" asi estaremos usando esa funcion
+
+
+
+//Incapaz de unir con github despues de crear tube que crear todo el proyecto como un clon de un repositorio para que me funcionara
